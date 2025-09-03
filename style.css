@@ -10,16 +10,17 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-
+    background: linear-gradient(#647C90, #4E4F50, #746C70);
 }
 
 .contact-info {
     color: #E2DED0;
-    background: linear-gradient(#647C90, #4E4F50, #746C70);
+    /* background: linear-gradient(#647C90, #4E4F50, #746C70); */
     padding: 50px;
     width: 400px;
-    height: 536px;
     border-radius: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-info a {
