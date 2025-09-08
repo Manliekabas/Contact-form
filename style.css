@@ -1,23 +1,29 @@
 body {
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(#941956, #647C90);
+    background: linear-gradient(gray, #647C90);
     /* min-height: 100vh; */
 }
-
 .contact-container {
+    /* background: linear-gradient(#a3346b, #647C90); */
     display: flex;
-    background: blue;
-    min-height: 510vh;
+    justify-content: center;
+}
+
+.contact-site {
+    display: flex;
+    width: 900px;
     justify-content: center;
     align-items: center;
+    transform: scale(.9);
+    background-color: silver;
+    border-radius: 10px;
 }
 
 .contact-info {
     color: #E2DED0;
     /* background: linear-gradient(#647C90, #4E4F50, #746C70);  */
     padding: 50px;
-    width: 400px;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
